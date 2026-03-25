@@ -1,0 +1,1267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Durga Travels</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <!-- ===== TOP BAR ===== -->
+    <div class="topbar">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <div class="top-left">
+                <i class="fa fa-map-marker-alt"></i>
+                Sector 110, Noida, Gautam Buddha Nagar
+            </div>
+
+            <div class="top-right d-flex align-items-center">
+
+                <a href="tel:9718562020">
+                    <i class="fa fa-phone"></i> +91 9718562020
+                </a>
+
+                <a href="mailto:Durgatravels89@gmail.com">
+                    <i class="fa fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg custom-navbar sticky-top">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="./image/logo.png" alt="">
+            </a>
+
+            <!-- Toggle Button -->
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#mobileMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Desktop Menu -->
+            <div class="collapse navbar-collapse justify-content-between">
+
+                <!-- Links -->
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="#vehicles">Vehicles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#routes">Routes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+
+                <!-- CTA -->
+                <div class="nav-cta d-flex align-items-center">
+                    <a href="tel:9718562020" class="call-btn">
+                        <i class="fa fa-phone"></i>
+                        <span class="blink">9718562020</span>
+                    </a>
+
+                    <a href="#" class="btn book-btn" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                        <i class="fa fa-car"></i> Book Now
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- ===== MOBILE SIDEBAR ===== -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu">
+
+        <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title fw-bold">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+
+        <div class="offcanvas-body d-flex flex-column justify-content-between">
+
+            <!-- MENU LINKS -->
+            <ul class="navbar-nav sidebar-menu">
+                <li><a class="nav-link active" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#services">Services</a></li>
+
+                <li><a class="nav-link" href="#vehicles">Vehicles</a></li>
+                <li><a class="nav-link" href="#routes">Routes</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- CTA BUTTON -->
+            <div class="sidebar-cta">
+                <a href="tel:9718562020" class="call-btn w-100 justify-content-center">
+                    Call Now
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- LEFT CONTENT -->
+                <div class="col-lg-7 text-white hero-text">
+
+                    <div class="badge-box mb-3">
+                        ⭐ Trusted Taxi Service in Noida
+                    </div>
+
+                    <h1 class="hero-title">
+                        Book Taxi in <span>Noida</span> <br>
+                        with Durga Travels 🚖
+                    </h1>
+
+                    <p class="hero-sub">
+                        24x7 Local & Outstation Cab Service | One Way • Round Trip • Airport Pickup
+                    </p>
+
+                    <!-- TAG BUTTONS -->
+                    <div class="hero-tags mb-3">
+                        <span>🚖 One Way</span>
+                        <span>🔁 Round Trip</span>
+                        <span>✈ Airport</span>
+                        <span>🏙 Local</span>
+                    </div>
+
+                    <!-- CTA BUTTONS -->
+                    <div class="hero-buttons">
+
+                        <a href="tel:9718562020" class="btn call-btn blink">
+                            <i class="fa fa-phone"></i> Call Now
+                        </a>
+
+                        <a href="https://wa.me/919718962020" target="_blank" class="btn whatsapp-btn">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </a>
+
+                        <a href="#form" class="btn book-btn" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                            <i class="fa fa-car"></i> Book Now
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- RIGHT FORM -->
+                <div class="col-lg-5 mt-4 mt-lg-0">
+
+                    <div class="hero-form" id="form">
+
+                        <h4>🚖 Get Instant Quote</h4>
+                        <p>Fill details & get best taxi fare in minutes</p>
+
+                        <form action="./send-inquiry.php" method="POST">
+
+                            <input type="text" name="pickup" placeholder="📍 Pickup Location" class="form-control mb-3"
+                                required>
+                            <input type="text" name="drop" placeholder="📍 Drop Location" class="form-control mb-3"
+                                required>
+                            <input type="date" name="date" class="form-control mb-3" required>
+                            <input type="tel" name="phone" placeholder="📞 Phone Number" class="form-control mb-3"
+                                required>
+                            <input type="text" name="passengers" placeholder="👥 Passengers" class="form-control mb-3">
+
+                            <button class="btn enquire-btn w-100">
+                                🚀 Get Fare Now
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TRUST STRIP ===== -->
+    <section class="trust-strip">
+        <div class="container">
+            <div class="row trust-wrapper text-center">
+
+                <div class="col-lg-3 col-md-6 col-6 mb-3">
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                        <span>Easy Booking</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6 mb-3">
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <i class="fa fa-bolt"></i>
+                        </div>
+                        <span>Fast Pickup</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6 mb-3">
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <i class="fa fa-rupee-sign"></i>
+                        </div>
+                        <span>Affordable Pricing</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6 mb-3">
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <i class="fa fa-headphones"></i>
+                        </div>
+                        <span>24/7 Support</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- LEFT CONTENT -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+
+                    <h2 class="about-title">
+                        About <span>Durga Travels</span>
+                    </h2>
+
+                    <p class="about-text">
+                        Durga Travels is a trusted and well-established taxi service provider in Noida, known for
+                        delivering reliable, affordable, and customer-focused cab services. Whether you need a ride for
+                        local city travel, airport transfers, or outstation trips, we offer a seamless and hassle-free
+                        experience tailored to your needs. Our fleet consists of well-maintained, clean, and comfortable
+                        vehicles to ensure a smooth journey every time.
+                    </p>
+
+                    <p class="about-text">
+                        We take pride in our team of professional, courteous, and experienced drivers who prioritize
+                        your safety and punctuality. With a strong commitment to on-time service, transparent pricing,
+                        and customer satisfaction, Durga Travels has become a preferred choice for individuals,
+                        families, and corporate clients across Noida and nearby major cities. Whether it’s a short ride
+                        within the city or a long-distance journey, we guarantee a safe, comfortable, and dependable
+                        travel experience you can trust.
+                    </p>
+
+                    <!-- FEATURES -->
+                    <div class="about-features">
+
+                        <div class="feature-box">
+                            <i class="fa fa-clock"></i>
+                            <span>24/7 Taxi Service</span>
+                        </div>
+
+                        <div class="feature-box">
+                            <i class="fa fa-user-shield"></i>
+                            <span>Verified Drivers</span>
+                        </div>
+
+                        <div class="feature-box">
+                            <i class="fa fa-rupee-sign"></i>
+                            <span>Affordable Pricing</span>
+                        </div>
+
+                        <div class="feature-box">
+                            <i class="fa fa-car"></i>
+                            <span>Clean Cars</span>
+                        </div>
+
+                    </div>
+
+                    <!-- CTA -->
+                    <a href="tel:9718562020" class="about-btn blink">
+                        📞 Call Now: 9718562020
+                    </a>
+
+                </div>
+
+                <!-- RIGHT IMAGE -->
+                <div class="col-lg-6 text-center">
+
+                    <div class="about-img-box">
+                        <img src="./image/about-img.png" alt="Durga Travels Taxi Service" class="img-fluid">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FEATURES PREMIUM UI ===== -->
+    <section class="features-modern">
+        <div class="container">
+
+            <!-- HEADING -->
+            <div class="text-center mb-5">
+                <p class="feature-tag">WHY CHOOSE US</p>
+                <h2 class="feature-title">Experience Premium Taxi Service</h2>
+                <div class="title-line"></div>
+            </div>
+
+            <!-- FEATURES GRID -->
+            <div class="row g-4">
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-item">
+                        <div class="icon-circle">
+                            <i class="fa fa-shield-alt"></i>
+                        </div>
+                        <h5>100% Safe Ride</h5>
+                        <p>Verified drivers & GPS-enabled vehicles for complete safety.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-item">
+                        <div class="icon-circle">
+                            <i class="fa fa-bolt"></i>
+                        </div>
+                        <h5>Instant Pickup</h5>
+                        <p>Fast response with on-time pickup at your doorstep.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-item">
+                        <div class="icon-circle">
+                            <i class="fa fa-rupee-sign"></i>
+                        </div>
+                        <h5>Best Price</h5>
+                        <p>No hidden charges, transparent and affordable pricing.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="feature-item">
+                        <div class="icon-circle">
+                            <i class="fa fa-headset"></i>
+                        </div>
+                        <h5>24x7 Support</h5>
+                        <p>Always available for bookings and customer support.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== VEHICLE SECTION ===== -->
+    <section class="vehicle-section" id="vehicles">
+        <div class="container">
+
+            <!-- HEADING -->
+            <div class="text-center mb-5">
+                <h2 class="vehicle-title">Our Taxi Fleet</h2>
+                <p class="vehicle-sub">Choose from our wide range of comfortable vehicles</p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- CARD 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="vehicle-card h-100">
+                        <div class="vehicle-img">
+                            <img src="./image/service/maruti-wagon-r.jpg" alt="Wagon R">
+                        </div>
+
+                        <h5>Wagon-R / Santro</h5>
+
+                        <div class="vehicle-info">
+                            <span>₹ 9 / KM</span>
+                            <span>👤 4</span>
+                        </div>
+
+                        <div class="vehicle-btns mt-auto">
+                            <a href="https://wa.me/919718962020" class="btn wa-btn">WhatsApp</a>
+                            <a href="#" class="btn enquiry-btn" data-bs-toggle="modal"
+                                data-bs-target="#bookingModal">Enquiry</a>
+                            <a href="tel:9718562020" class="btn call-btn">Call</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="vehicle-card h-100">
+                        <div class="vehicle-img">
+                            <img src="./image/service/dzire.jpg" alt="">
+                        </div>
+
+                        <h5>Dzire / Etios / Xcent</h5>
+
+                        <div class="vehicle-info">
+                            <span>₹ 11 / Per KM</span>
+                            <span>👤 4</span>
+                        </div>
+
+                        <div class="vehicle-btns mt-auto">
+                            <a href="https://wa.me/919718962020" class="btn wa-btn">WhatsApp</a>
+                            <a href="#" class="btn enquiry-btn" data-bs-toggle="modal"
+                                data-bs-target="#bookingModal">Enquiry</a>
+                            <a href="tel:9718562020" class="btn call-btn">Call</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="vehicle-card h-100">
+                        <div class="vehicle-img">
+                            <img src="./image/service/new-ertiga.jpg" alt="">
+                        </div>
+
+                        <h5>Maruti Ertiga</h5>
+
+                        <div class="vehicle-info">
+                            <span>₹ 14 / Per KM</span>
+                            <span>👤 6</span>
+                        </div>
+
+                        <div class="vehicle-btns mt-auto">
+                            <a href="https://wa.me/919718962020" class="btn wa-btn">WhatsApp</a>
+                            <a href="#" class="btn enquiry-btn" data-bs-toggle="modal"
+                                data-bs-target="#bookingModal">Enquiry</a>
+                            <a href="tel:9718562020" class="btn call-btn">Call</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 4 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="vehicle-card h-100">
+                        <div class="vehicle-img">
+                            <img src="./image/service/Toyota-Innova.jpg" alt="">
+                        </div>
+
+                        <h5>Toyota Innova</h5>
+
+                        <div class="vehicle-info">
+                            <span>₹ 16 / Per KM</span>
+                            <span>👤 6</span>
+                        </div>
+
+                        <div class="vehicle-btns mt-auto">
+                            <a href="https://wa.me/919718962020" class="btn wa-btn">WhatsApp</a>
+                            <a href="#" class="btn enquiry-btn" data-bs-toggle="modal"
+                                data-bs-target="#bookingModal">Enquiry</a>
+                            <a href="tel:9718562020" class="btn call-btn">Call</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 5 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="vehicle-card h-100">
+                        <div class="vehicle-img">
+                            <img src="./image/service/toyotainnova.jpg" alt="">
+                        </div>
+
+                        <h5>Innova Crysta</h5>
+
+                        <div class="vehicle-info">
+                            <span>₹ 20 / Per KM</span>
+                            <span>👤 7+</span>
+                        </div>
+
+                        <div class="vehicle-btns mt-auto">
+                            <a href="https://wa.me/919718962020" class="btn wa-btn">WhatsApp</a>
+                            <a href="#" class="btn enquiry-btn" data-bs-toggle="modal"
+                                data-bs-target="#bookingModal">Enquiry</a>
+                            <a href="tel:9718562020" class="btn call-btn">Call</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD 6 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="vehicle-card h-100">
+                        <div class="vehicle-img">
+                            <img src="./image/service/tempo.png" alt="">
+                        </div>
+
+                        <h5>Tempo Traveller</h5>
+
+                        <div class="vehicle-info">
+                            <span>₹ 30 / Per KM</span>
+                            <span>👤 22–30</span>
+                        </div>
+
+                        <div class="vehicle-btns mt-auto">
+                            <a href="https://wa.me/919718962020" class="btn wa-btn">WhatsApp</a>
+                            <a href="#" class="btn enquiry-btn" data-bs-toggle="modal"
+                                data-bs-target="#bookingModal">Enquiry</a>
+                            <a href="tel:9718562020" class="btn call-btn">Call</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== PROMO / VALUE SECTION ===== -->
+    <section class="promo-section">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <!-- LEFT CONTENT -->
+                <div class="col-lg-6">
+
+                    <h2 class="promo-title">
+                        Travel Smart with <span>Durga Travels</span>
+                    </h2>
+
+                    <p class="promo-text">
+                        Experience reliable taxi services from Noida with professional drivers,
+                        clean vehicles, and instant booking support. Whether local or outstation,
+                        we ensure a smooth and comfortable journey every time.
+                    </p>
+
+                    <!-- FEATURES GRID -->
+                    <div class="promo-features">
+
+                        <div class="promo-item">
+                            <h6>01. Wide Service Coverage</h6>
+                            <p>Local, airport & outstation taxi services across major cities.</p>
+                        </div>
+
+                        <div class="promo-item">
+                            <h6>02. Reliable & On-Time</h6>
+                            <p>Always punctual service with professional drivers.</p>
+                        </div>
+
+                        <div class="promo-item">
+                            <h6>03. Instant Booking</h6>
+                            <p>Quick booking via call or WhatsApp anytime.</p>
+                        </div>
+
+                        <div class="promo-item">
+                            <h6>04. Well-Maintained Fleet</h6>
+                            <p>Clean and comfortable cars for safe travel.</p>
+                        </div>
+
+                    </div>
+
+                    <!-- CTA -->
+                    <div class="promo-btns">
+                        <a href="tel:9718562020" class="btn call-btn">Call Now</a>
+                        <a href="https://wa.me/919718962020" target="_blank" class="btn wa-btn">WhatsApp</a>
+                    </div>
+
+                </div>
+
+                <!-- RIGHT IMAGE -->
+                <div class="col-lg-6 text-center">
+
+                    <div class="promo-img">
+                        <img src="./image/proof.png" alt="Taxi Service" class="img-fluid">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="why-section" id="services">
+        <div class="container">
+
+            <!-- HEADING -->
+            <div class="text-center mb-5">
+                <h2 class="why-title">Why Choose Durga Travels?</h2>
+                <p class="why-sub">
+                    Experience reliable, affordable, and professional taxi services from Noida with 24/7 support.
+                </p>
+            </div>
+
+            <!-- CARDS -->
+            <div class="row g-4">
+
+                <!-- CARD 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="why-card">
+                        <div class="why-icon">
+                            <i class="fa fa-user-tie"></i>
+                        </div>
+                        <h5>Professional Drivers</h5>
+                        <p>
+                            Experienced and verified drivers ensuring safe, smooth and comfortable journeys.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="why-card">
+                        <div class="why-icon">
+                            <i class="fa fa-headset"></i>
+                        </div>
+                        <h5>24/7 Customer Support</h5>
+                        <p>
+                            Dedicated support team available anytime for booking, queries, and assistance.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- CARD 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="why-card">
+                        <div class="why-icon">
+                            <i class="fa fa-shield-alt"></i>
+                        </div>
+                        <h5>Safe & Secure Travel</h5>
+                        <p>
+                            Well-maintained vehicles with complete safety and hygiene standards.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- tour-section -->
+    <section class="tour-section">
+        <div class="container">
+
+            <!-- HEADING -->
+            <div class="text-center mb-5">
+                <h2 class="tour-title">Tour Packages from Noida</h2>
+                <p class="tour-sub">
+                    Explore popular destinations from Noida with our affordable and reliable taxi services.
+                </p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="tour-card">
+                        <div class="tour-img">
+                            <img src="./image/tours/shimla-manali.webp">
+                            <span class="tour-badge">On Request</span>
+                        </div>
+
+                        <div class="tour-content">
+                            <h5>2 Days Mathura Vrindavan</h5>
+
+                            <p>🕒 1N / 2D</p>
+                            <p>📍 Noida → Mathura → Vrindavan → Noida</p>
+
+                            <div class="tour-btns mt-auto">
+                                <a href="tel:9718562020" class="btn call-btn">Call</a>
+                                <a href="https://wa.me/919718962020" class="btn wa-btn">WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="tour-card">
+                        <div class="tour-img">
+                            <img src="./image/tours/char-dham.webp">
+                            <span class="tour-badge">On Request</span>
+                        </div>
+
+                        <div class="tour-content">
+                            <h5>Agra Mathura Vrindavan Tour</h5>
+
+                            <p>🕒 1N / 2D</p>
+                            <p>📍 Noida → Agra → Mathura → Vrindavan</p>
+
+                            <div class="tour-btns mt-auto">
+                                <a href="tel:9718562020" class="btn call-btn">Call</a>
+                                <a href="https://wa.me/919718962020" class="btn wa-btn">WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="tour-card">
+                        <div class="tour-img">
+                            <img src="./image/tours/golden-triangle.webp">
+                            <span class="tour-badge">On Request</span>
+                        </div>
+
+                        <div class="tour-content">
+                            <h5>5 Days Mathura Vrindavan Package</h5>
+
+                            <p>🕒 4N / 5D</p>
+                            <p>📍 Noida → Mathura → Vrindavan → Agra</p>
+
+                            <div class="tour-btns mt-auto">
+                                <a href="tel:9718562020" class="btn call-btn">Call</a>
+                                <a href="https://wa.me/919718962020" class="btn wa-btn">WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="tour-card">
+                        <div class="tour-img">
+                            <img src="./image/tours/nainital.jpg">
+                            <span class="tour-badge">Popular</span>
+                        </div>
+
+                        <div class="tour-content">
+                            <h5>Mathura Vrindavan Ayodhya</h5>
+
+                            <p>🕒 5N / 6D</p>
+                            <p>📍 Noida → Mathura → Lucknow → Ayodhya</p>
+
+                            <div class="tour-btns mt-auto">
+                                <a href="tel:9718562020" class="btn call-btn">Call</a>
+                                <a href="https://wa.me/919718962020" class="btn wa-btn">WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="tour-card">
+                        <div class="tour-img">
+                            <img src="./image/tours/nainital.jpg">
+                            <span class="tour-badge">Trending</span>
+                        </div>
+
+                        <div class="tour-content">
+                            <h5>Mathura Ayodhya Prayagraj Varanasi</h5>
+
+                            <p>🕒 8N / 9D</p>
+                            <p>📍 Noida → Ayodhya → Prayagraj → Varanasi</p>
+
+                            <div class="tour-btns mt-auto">
+                                <a href="tel:9718562020" class="btn call-btn">Call</a>
+                                <a href="https://wa.me/919718962020" class="btn wa-btn">WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="tour-card">
+                        <div class="tour-img">
+                            <img src="./image/tours/same-day-aagra.webp">
+                            <span class="tour-badge">Fast Booking</span>
+                        </div>
+
+                        <div class="tour-content">
+                            <h5>Same Day Agra Tour</h5>
+
+                            <p>🕒 1 Day</p>
+                            <p>📍 Noida → Agra → Noida</p>
+
+                            <div class="tour-btns mt-auto">
+                                <a href="tel:9718562020" class="btn call-btn">Call</a>
+                                <a href="https://wa.me/919718962020" class="btn wa-btn">WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="tour-card">
+                        <div class="tour-img">
+                            <img src="./image/tours/same-day-aagra.webp">
+                            <span class="tour-badge">Top Route</span>
+                        </div>
+
+                        <div class="tour-content">
+                            <h5>Haridwar Rishikesh Agra Mathura</h5>
+
+                            <p>🕒 6N / 7D</p>
+                            <p>📍 Noida → Haridwar → Rishikesh → Agra</p>
+
+                            <div class="tour-btns mt-auto">
+                                <a href="tel:9718562020" class="btn call-btn">Call</a>
+                                <a href="https://wa.me/919718962020" class="btn wa-btn">WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 8 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="tour-card">
+                        <div class="tour-img">
+                            <img src="./image/tours/nainital.jpg">
+                            <span class="tour-badge">Quick Trip</span>
+                        </div>
+
+                        <div class="tour-content">
+                            <h5>2 Days Vrindavan Tour</h5>
+
+                            <p>🕒 1N / 2D</p>
+                            <p>📍 Noida → Mathura → Vrindavan</p>
+
+                            <div class="tour-btns mt-auto">
+                                <a href="tel:9718562020" class="btn call-btn">Call</a>
+                                <a href="https://wa.me/919718962020" class="btn wa-btn">WhatsApp</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LOCATIONS SECTION ===== -->
+    <section class="locations-section" id="routes">
+        <div class="container">
+
+            <!-- HEADING -->
+            <div class="text-center mb-5">
+                <h2 class="loc-title">All Taxi Routes from Noida</h2>
+                <p class="loc-sub">
+                    Explore our wide range of taxi services from Noida to major cities across India.
+                </p>
+            </div>
+
+            <!-- GRID -->
+            <div class="row">
+
+                <!-- COLUMN -->
+                <div class="col-lg-3 col-md-6">
+                    <ul class="loc-list">
+                        <li>Noida to Agra Taxi Service</li>
+                        <li>Noida to Jaipur Taxi Service</li>
+                        <li>Noida to Haridwar Taxi Service</li>
+                        <li>Noida to Rishikesh Taxi Service</li>
+                        <li>Noida to Dehradun Taxi Service</li>
+                        <li>Noida to Shimla Taxi Service</li>
+                        <li>Noida to Manali Taxi Service</li>
+                        <li>Noida to Kullu Taxi Service</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <ul class="loc-list">
+                        <li>Noida to Lucknow Taxi Service</li>
+                        <li>Noida to Kanpur Taxi Service</li>
+                        <li>Noida to Varanasi Taxi Service</li>
+                        <li>Noida to Ayodhya Taxi Service</li>
+                        <li>Noida to Prayagraj Taxi Service</li>
+                        <li>Noida to Patna Taxi Service</li>
+                        <li>Noida to Gorakhpur Taxi Service</li>
+                        <li>Noida to Bareilly Taxi Service</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <ul class="loc-list">
+                        <li>Noida to Chandigarh Taxi Service</li>
+                        <li>Noida to Amritsar Taxi Service</li>
+                        <li>Noida to Jammu Taxi Service</li>
+                        <li>Noida to Dharamshala Taxi Service</li>
+                        <li>Noida to Dalhousie Taxi Service</li>
+                        <li>Noida to Nainital Taxi Service</li>
+                        <li>Noida to Mussoorie Taxi Service</li>
+                        <li>Noida to Jim Corbett Taxi</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <ul class="loc-list">
+                        <li>Delhi Airport to Noida Taxi</li>
+                        <li>Noida to Delhi Taxi Service</li>
+                        <li>Noida to Gurgaon Taxi Service</li>
+                        <li>Noida to Ghaziabad Taxi</li>
+                        <li>Noida to Faridabad Taxi</li>
+                        <li>Noida to Mathura Taxi Service</li>
+                        <li>Noida to Vrindavan Taxi</li>
+                        <li>Noida to Khatu Shyam Taxi</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== CTA SECTION ===== -->
+    <section class="cta-section">
+        <div class="container position-relative">
+            <div class="row align-items-center">
+
+                <!-- LEFT CONTENT -->
+                <div class="col-lg-6">
+
+                    <span class="cta-tag">Our Services</span>
+
+                    <h2 class="cta-title">
+                        Book Taxi in Noida <br>
+                        with Durga Travels 🚖
+                    </h2>
+
+                    <p class="cta-text">
+                        Book your ride anytime with our fast and reliable taxi service.
+                        We provide local & outstation cab service across Noida with best pricing.
+                    </p>
+
+                    <div class="cta-features">
+                        <div class="feature">✔ Easy Booking</div>
+                        <div class="feature">✔ Fixed Pricing</div>
+                        <div class="feature">✔ 24/7 Service</div>
+                        <div class="feature">✔ WhatsApp Support</div>
+                        <div class="feature">✔ Clean Cars</div>
+                        <div class="feature">✔ Verified Drivers</div>
+                    </div>
+
+                    <a href="tel:9718562020" class="cta-btn blink">
+                        📞 Call Now: 9718562020
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT IMAGE -->
+            <div class="cta-img">
+                <img src="./image/Services.png" alt="Taxi Service">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ===== HOW IT WORKS ===== -->
+    <section class="works-section">
+        <div class="container">
+
+            <!-- HEADING -->
+            <div class="text-center mb-5">
+                <h2 class="works-title">How Durga Travels Works</h2>
+                <p class="works-sub">Book your cab in just 4 simple steps</p>
+            </div>
+
+            <div class="works-wrapper">
+
+                <!-- CENTER IMAGE -->
+                <div class="works-center">
+                    <img src="./image/how.png" alt="Taxi">
+                </div>
+
+                <!-- STEP 1 -->
+                <div class="work-item work-1">
+                    <div class="circle">01</div>
+                    <h6>Choose Your Route</h6>
+                    <p>Select pickup and destination easily.</p>
+                </div>
+
+                <!-- STEP 2 -->
+                <div class="work-item work-2">
+                    <div class="circle">02</div>
+                    <h6>Contact or Book</h6>
+                    <p>Call or WhatsApp to confirm your booking.</p>
+                </div>
+
+                <!-- STEP 3 -->
+                <div class="work-item work-3">
+                    <div class="circle">03</div>
+                    <h6>Driver Assigned</h6>
+                    <p>Professional driver reaches your location on time.</p>
+                </div>
+
+                <!-- STEP 4 -->
+                <div class="work-item work-4">
+                    <div class="circle">04</div>
+                    <h6>Enjoy Your Ride</h6>
+                    <p>Safe, comfortable and hassle-free journey.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="row g-4">
+
+                <!-- LEFT FORM -->
+                <div class="col-lg-8">
+                    <div class="contact-form-box">
+
+                        <h3>Need Help? Send Message</h3>
+                        <p>Get instant cab booking assistance from Durga Travels.</p>
+
+                        <form action="./send-inquiry.php" method="POST">
+
+                            <div class="row g-3">
+
+                                <div class="col-md-6">
+                                   <input type="text" name="pickup" placeholder="Pick From" class="form-control" required>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="text" name="drop" placeholder="Travelling To" class="form-control" required>
+                                </div>
+
+                                <div class="col-md-6">
+                                   <input type="date" name="date" class="form-control">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <input type="tel" name="phone" placeholder="Phone Number" class="form-control" required>
+                                </div>
+
+                                <div class="col-12">
+                                   <input type="number" name="passengers" placeholder="No. of Passengers" class="form-control">
+                                </div>
+
+                            </div>
+
+                            <button class="contact-btn">
+                                🚖 Get Instant Quote
+                            </button>
+
+                        </form>
+
+                    </div>
+                </div>
+
+                <!-- RIGHT CONTACT DETAILS -->
+                <div class="col-lg-4">
+                    <div class="contact-info-box">
+
+                        <h4>Contact Details</h4>
+
+                        <div class="info-item">
+                            <i class="fa fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Office Address</strong>
+                                <p>3/A Sharmik Kunj Sector 110, Noida, Gautam Buddha Nagar - 201304</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fa fa-phone"></i>
+                            <div>
+                                <strong>Call Us</strong>
+                                <p>+91 9718562020<br>+91 9718962020</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fa fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <p>Durgatravels89@gmail.com</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+<footer class="footer-section">
+
+    <div class="container">
+        <div class="row gy-5">
+
+            <!-- ABOUT -->
+            <div class="col-lg-4 col-md-6">
+                <div class="footer-box">
+                    <img class="footer-logo mb-3" src="./image/footer-logo.png" alt="Durga Travels">
+
+                    <p>
+                        Durga Travels provides reliable taxi services from Noida to all major cities.
+                        Book local, outstation, and airport cabs with comfort and safety.
+                    </p>
+
+                    <!-- SOCIAL -->
+                    <div class="footer-social mt-3">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/919718962020"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- QUICK LINKS -->
+            <div class="col-lg-2 col-md-6 col-6">
+                <div class="footer-box">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#vehicles">Vehicles</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- SERVICES -->
+            <div class="col-lg-3 col-md-6 col-6">
+                <div class="footer-box">
+                    <h5>Our Services</h5>
+                    <ul>
+                        <li><a href="#">Local Taxi Service</a></li>
+                        <li><a href="#">Outstation Cabs</a></li>
+                        <li><a href="#">Airport Transfer</a></li>
+                        <li><a href="#">One Way Taxi</a></li>
+                        <li><a href="#">Round Trip Taxi</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- CONTACT -->
+            <div class="col-lg-3 col-md-6">
+                <div class="footer-box">
+                    <h5>Contact Us</h5>
+
+                    <p>
+                        <i class="fa fa-map-marker-alt"></i>
+                        3/A Sharmik Kunj Sector 110, Noida<br>
+                        Gautam Buddha Nagar - 201304
+                    </p>
+
+                    <p>
+                        <i class="fa fa-phone"></i>
+                        <a href="tel:9718562020">+91 9718562020</a><br>
+                        <a href="tel:9718962020">+91 9718962020</a>
+                    </p>
+
+                    <p>
+                        <i class="fa fa-envelope"></i>
+                        <a href="mailto:Durgatravels89@gmail.com">Durgatravels89@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- BOTTOM BAR -->
+    <div class="footer-bottom text-center">
+        <p>© 2026 Durga Travels. All Rights Reserved.</p>
+    </div>
+
+</footer>
+
+    <!-- ===== BOOKING MODAL ===== -->
+    <div class="modal fade" id="bookingModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content custom-modal">
+
+                <!-- Close Button -->
+                <button type="button" class="btn-close modal-close" data-bs-dismiss="modal"></button>
+
+                <!-- Modal Body -->
+                <div class="modal-body">
+
+                    <h4>🚖 Book Your Taxi</h4>
+                    <p>Fill details & get instant quote</p>
+
+                    <form action="./send-inquiry.php" method="POST">
+
+                        <input type="text" name="pickup" placeholder="📍 Pickup Location" class="form-control mb-3" required>
+<input type="text" name="drop" placeholder="📍 Drop Location" class="form-control mb-3" required>
+<input type="date" name="date" class="form-control mb-3">
+<input type="tel" name="phone" placeholder="📞 Phone Number" class="form-control mb-3" required>
+<input type="text" name="passengers" placeholder="👥 Passengers" class="form-control mb-3">
+
+                        <button class="btn enquire-btn w-100">
+                            🚀 Get Fare Now
+                        </button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== STICKY ENQUIRE BUTTON ===== -->
+    <div class="sticky-enquire">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#bookingModal">
+            Enquire Now
+        </a>
+    </div>
+
+    <!-- ===== FLOATING BUTTONS ===== -->
+    <div class="floating-icons">
+
+        <!-- CALL -->
+        <a href="tel:9718562020" class="float-btn call-float">
+            <i class="fa fa-phone"></i>
+        </a>
+
+        <!-- WHATSAPP -->
+        <a href="https://wa.me/919718962020" target="_blank" class="float-btn whatsapp-float">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <!-- SCROLL TOP -->
+        <div class="float-btn top-float" id="scrollTopBtn">
+            <i class="fa fa-arrow-up"></i>
+        </div>
+
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- js -->
+    <script src="./js/script.js"></script>
+
+
+
+</body>
+
+</html>
