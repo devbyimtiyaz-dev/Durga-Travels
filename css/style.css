@@ -830,15 +830,18 @@ body {
   height: 180px;
   overflow: hidden;
   border-radius: 12px;
+  background: #fff; /* important */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .vehicle-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* keeps all images same size */
+  object-fit: contain; /* FIXED */
   transition: 0.4s;
 }
-
 .vehicle-card:hover img {
   transform: scale(1.08);
 }
